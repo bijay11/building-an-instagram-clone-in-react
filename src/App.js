@@ -7,7 +7,11 @@ const Profile = lazy(() => import("./pages/profile"));
 const NotFound = lazy(() => import("./pages/not-found"));
 
 const App = () => {
-  return <p className="text-red-500">ets</p>;
+  return (
+    <Suspense fallback={<p>Loading...</p>}>
+      <p>This is where our content will be</p>
+    </Suspense>
+  );
 };
 
 export default App;
