@@ -1,4 +1,4 @@
-import { seedDatabase } from "../seed";
+//import { seedDatabase } from "../seed";
 
 // Your web app's Firebase configuration
 const config = {
